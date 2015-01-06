@@ -143,9 +143,9 @@ puts "What would you like to play : Temp_Converter, Calculator, Reverse, Banking
 game = gets.chomp.downcase
 case game
 when "temp_converter"
-  temp_converter
+	temp_converter
 when "calculator"
-  calculator
+	calculator
 when "reverse"
 	reverse
 when "banking"
@@ -153,6 +153,6 @@ when "banking"
 when "number_guessing"
 	guessing_game
 else
-  puts "That game is in the works..."
+	puts "That game is in the works..."
 end
 

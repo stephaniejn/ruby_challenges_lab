@@ -1,8 +1,6 @@
 # Challenge 4 - Bank Transactions
 def bank_transaction
 balance = 0
-# puts "Would you like to continue?"
-	# answer = gets.chomp
 	answer = "yes"
 	while answer == "yes" do
 	puts "What would you like to do? (deposit, withdraw, check_balance)"

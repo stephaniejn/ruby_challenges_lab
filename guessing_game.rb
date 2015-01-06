@@ -1,6 +1,6 @@
 # Challenge 5 - Guessing Game
 def guessing_game
-number = 11
+number = rand(1..100)
 puts "Guess a number between 1 and 100"
 guess = gets.chomp.to_i
 counter = 1

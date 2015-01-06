@@ -20,8 +20,8 @@ balance = 0
 		if withdrawl > balance
 			puts "Sorry you don't have an overdraft"
 		else 
-			new_balance = balance - withdrawl
-			puts "Your new balance is #{new_balance}"
+			balance = balance - withdrawl
+			puts "Your new balance is #{balance}"
 		end
 		puts "Would you like to continue?"
 		answer = gets.chomp
